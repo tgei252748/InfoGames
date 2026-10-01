@@ -1,4 +1,48 @@
+body {
+    background-color: black;
+}
 .navbar {
     list-style: none;
     display: flex;  
+}
+.logo {
+    width: 128px;
+    height: 128px;
+}
+.title {
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.pages {
+    margin-top: 60px;
+    margin-left: 10px;
+    background-color: black;
+    border: none;
+    color: beige;
+}
+.pages:hover {
+    cursor: pointer;
+    border: 1px rgb(52, 105, 218);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(52, 105, 218);
+    color: rgb(14, 230, 230);
+}
+.button1 {
+    margin-left: 500px;
+}
+.button4 {
+    margin-left: 700px;
+}
+.img {
+    width: 700px;
+    margin-left: 200px;
+}
+.text {
+    margin-left: 100px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+.row {
+    display: flex;
+    list-style: none;
 }
