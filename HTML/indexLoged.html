@@ -15,8 +15,7 @@
         <a href="index.html" class="pages button1">Home</a>
         <a href="about.html" class="pages button2">About</a>
         <a href="avaliation.html" class="pages button3">Avaliations</a>
-        <a href="singup.html" class="pages button4">Sing Up</a>
-        <a href="login.html" class="pages button5">login</a>
+        <span id="username" class="name"></span>
     </ul>
     <ul class="row">
         <li><img src="res/video-gaming.avif" alt="" class="img"></li>
@@ -30,5 +29,10 @@
         <li><img src="res/img2.png" alt="" class="img" style="width: 600px; height: 400px;"></li>
         <li style="color: beige;" class="text">The history of video games is filled with important moments, famous consoles, innovative developers, and games that changed the industry.<p>From the early days of arcade games to the rise of home consoles, handheld systems, PC gaming, and modern platforms, every generation has introduced new ideas and technologies.Understanding this history helps us see how gaming evolved from a small technological experiment into the huge industry it is today.</li>
     </ul>
+    <script>
+        document.getElementById("username").textContent = localStorage.getItem("name");
+        document.getElementById("useremail").textContent = localStorage.getItem("email");
+        document.getElementById("userbirth").textContent = localStorage.getItem("birth");
+    </script>
 </body>
 </html>

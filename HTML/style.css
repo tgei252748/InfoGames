@@ -29,20 +29,81 @@ body {
 }
 .button1 {
     margin-left: 500px;
+    height: 24px;
+}
+.button2 {
+    height: 24px;
+}
+.button3 {
+    height: 24px;
 }
 .button4 {
     margin-left: 700px;
+    height: 24px;
+}
+.button5 {
+    height: 24px;
+}
+.imgw {
+    width: 600px;
 }
 .img {
     width: 700px;
     margin-left: 200px;
+}
+.img1 {
+    width: 700px;
+    margin-right: 200px;
 }
 .text {
     margin-left: 100px;
     margin-right: 300px;
     margin-top: 50px;
 }
+.text1 {
+    margin-right: 100px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
 .row {
     display: flex;
     list-style: none;
+}
+.singup {
+    margin: 815px;
+    margin-top: 150px;
+    height: 400px;
+    border: 1px solid aqua;
+    box-shadow: 0 0 20px rgb(52, 105, 218);
+    border-radius: 20px;
+}
+.login {
+    margin: 815px;
+    margin-top: 150px;
+    height: 250px;
+    border: 1px solid aqua;
+    box-shadow: 0 0 20px rgb(52, 105, 218);
+    border-radius: 20px;
+}
+.space {
+    margin: 35px;
+}
+.button_singup {
+    border-radius: 15px;
+    border: 1px solid aqua;
+    box-shadow: 0 0 20px rgb(52, 105, 218);
+    margin: 55px;
+    margin-left: 50px;
+    margin-top: -15px;
+    color: beige;
+    background-color: black;
+}
+.button6 {
+    color: beige;
+    margin-left: 12px;
+}
+.name {
+    margin-left: 750px;
+    margin-top: 60px;
+    color: beige;
 }
