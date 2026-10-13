@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <meta name="author" content="MatheusSantos">
+    <meta name="description" content="A site about video games">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <ul class="navbar">
+        <li><img src="res/image.png" alt="" class="logo"></li>
+        <li><h1 style="color: beige;" class="title"><i>Info Games</i></h1></li>
+        <a href="index.html" class="pages button1">Home</a>
+        <a href="about.html" class="pages button2">About</a>
+        <a href="avaliation.html" class="pages button3">Avaliations</a>
+        <span id="username" class="name"></span>
+    </ul>
+    <ul class="row">
+        <li><img src="res/video-gaming.avif" alt="" class="img"></li>
+        <li style="color: beige;" class="text">Video games have become one of the biggest forms of entertainment in the world. They are more than just something to play in your free time — they combine technology, art, music, storytelling, creativity, and competition into unique interactive experiences.<p>Our website is dedicated to exploring the world of video games and everything that makes it so interesting. From the history of gaming to the latest developments in the industry, there is a huge amount to discover.</li>
+    </ul>
+    <ul class="row">
+        <li style="color: beige;" class="text1">Video games have changed dramatically over the years. What started with simple arcade machines and basic home consoles eventually developed into a massive global industry with millions of players.<p>Today, games can tell complex stories, create enormous virtual worlds, bring people together online, and even become competitive sports. Different genres and platforms have also created communities of players with completely different interests.</li>
+        <li><img src="res/img1.png" alt="" class="img1" style="width: 600px;"></li>
+    </ul>
+    <ul class="row">
+        <li><img src="res/img2.png" alt="" class="img" style="width: 600px; height: 400px;"></li>
+        <li style="color: beige;" class="text">The history of video games is filled with important moments, famous consoles, innovative developers, and games that changed the industry.<p>From the early days of arcade games to the rise of home consoles, handheld systems, PC gaming, and modern platforms, every generation has introduced new ideas and technologies.Understanding this history helps us see how gaming evolved from a small technological experiment into the huge industry it is today.</li>
+    </ul>
+    <script>
+        document.getElementById("username").textContent = localStorage.getItem("name");
+        document.getElementById("useremail").textContent = localStorage.getItem("email");
+        document.getElementById("userbirth").textContent = localStorage.getItem("birth");
+    </script>
+</body>
+</html>

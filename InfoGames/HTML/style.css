@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+}
+.navbar {
+    list-style: none;
+    display: flex;  
+}
+.navbar1 {
+    list-style: none;
+    display: flex;  
+    margin-left: 500px;
+}
+.logo {
+    width: 128px;
+    height: 128px;
+}
+.title {
+    margin-top: 45px;
+    margin-left: 20px;
+}
+.pages {
+    margin-top: 60px;
+    margin-left: 10px;
+    background-color: black;
+    border: none;
+    color: beige;
+}
+.pages1 {
+    background-color: black;
+    border: 1px aqua;
+    color: beige;
+}
+.pages:hover {
+    cursor: pointer;
+    border: 1px rgb(52, 105, 218);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgb(52, 105, 218);
+    color: rgb(14, 230, 230);
+}
+.pages1:hover {
+    cursor: pointer;
+    border: 1px aqua;
+    border-radius: 10px;
+    box-shadow: 0 0 20px aqua;
+    color: rgb(14, 230, 230);
+}
+.button1 {
+    margin-left: 500px;
+    height: 24px;
+}
+.button2 {
+    height: 24px;
+}
+.button3 {
+    height: 24px;
+}
+.button4 {
+    margin-left: 700px;
+    height: 24px;
+}
+.button5 {
+    height: 24px;
+}
+.button6 {
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+}
+.imgw {
+    width: 600px;
+}
+.img {
+    width: 700px;
+    margin-left: 200px;
+}
+.img1 {
+    width: 700px;
+    margin-right: 200px;
+}
+.text {
+    margin-left: 100px;
+    margin-right: 300px;
+    margin-top: 50px;
+}
+.text1 {
+    margin-right: 100px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.row {
+    display: flex;
+    list-style: none;
+}
+.singup {
+    margin: 815px;
+    margin-top: 150px;
+    height: 400px;
+    border: 1px solid aqua;
+    box-shadow: 0 0 20px rgb(52, 105, 218);
+    border-radius: 20px;
+}
+.login {
+    margin: 815px;
+    margin-top: 150px;
+    height: 250px;
+    border: 1px solid aqua;
+    box-shadow: 0 0 20px rgb(52, 105, 218);
+    border-radius: 20px;
+}
+.space {
+    margin: 35px;
+}
+.button_singup {
+    border-radius: 15px;
+    border: 1px solid aqua;
+    box-shadow: 0 0 20px rgb(52, 105, 218);
+    margin: 55px;
+    margin-left: 50px;
+    margin-top: -15px;
+    color: beige;
+    background-color: black;
+}
+.button6 {
+    color: beige;
+    margin-left: 12px;
+}
+.name {
+    margin-left: 750px;
+    margin-top: 60px;
+    color: beige;
+}
